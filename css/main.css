@@ -43,7 +43,11 @@ body {
 
 @media only screen
 and (min-width : 2160px) {
-    body {
-        font-size: 300%;
+    .box {
+        top: 50%; left: 0; bottom: 0; right: 0;
+        height: 10em;
+    }
+    .name {
+        font-size:4em;
     }
 }
