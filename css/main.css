@@ -35,12 +35,3 @@ body {
   font-size: 3em;
   line-height: 0.3em;
 }
-
-@media only screen and (orientation: portrait) {
-    .box {
-        background-color: rgba(0, 0, 0, 0.2);
-    }
-    body {
-        background-size: contain;
-    }
-}
