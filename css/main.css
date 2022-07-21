@@ -2,7 +2,7 @@
 
 body {
     background: url('../background_6.jpg') no-repeat center center fixed;
-    background-size: cover;
+    background-size: cover, cover;
     overflow: hidden;
 }
 
@@ -39,5 +39,17 @@ body {
 @media only screen and (orientation: portrait) {
     .box {
         font-size: 150%;
+        backdrop-filter: blur(10vw);
+        border-radius: 50px;
+        background-color: rgba(0, 0, 0, 0.4);
+        width: 35em;
+        height: 12em;
+        top: 0; left: 0; bottom: 0; right: 0;
+        position: absolute;
+        overflow: auto;
+        margin: auto;
+    }
+    body {
+        background-size: contain, contain;
     }
 }
