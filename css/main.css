@@ -1,35 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
 
 body {
-    background: url('../background.jpg') no-repeat center center fixed;
+    background: url('../background_2.jpg') no-repeat center center fixed;
     background-size: cover;
     overflow: hidden;
 }
 
 .box {
-  backdrop-filter: blur(1vw);
-  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5vw);
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
   width: 35em;
-  height: 14em;
-  top: 65%; left: 0; bottom: 0; right: 0;
+  height: 12em;
+  top: 70%; left: 0; bottom: 0; right: 0;
   position: absolute;
   overflow: auto;
   margin: auto;
 }
 
 .name {
-  font-family: 'JetBrains Mono', monospace;
-  color: rgba(225, 225, 225, 0.5);
+  font-family: 'JetBrains Mono';
+  color: rgba(225, 225, 225, 0.7);
   text-align: center;
-  font-size:6em;
+  font-size:5em;
 }
 
 .fa-brands {
-  color: rgba(225, 225, 225, 0.5);
+  color: rgba(225, 225, 225, 0.7);
 }
 
-.text {
-  font-family: 'JetBrains Mono', monospace;
+.icons   {
+  font-family: 'JetBrains Mono';
   text-align: center;
   font-size: 3em;
   line-height: 0.3em;
@@ -38,15 +39,5 @@ body {
 @media only screen and (orientation: portrait) {
     .box {
         font-size: 150%;
-    }
-}
-
-@media only screen and (orientation: landscape) {
-    .box {
-        top: 50%; left: 0; bottom: 0; right: 0;
-        height: 10em;
-    }
-    .name {
-        font-size:4em;
     }
 }
