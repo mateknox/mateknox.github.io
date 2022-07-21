@@ -36,8 +36,3 @@ body {
   line-height: 0.3em;
 }
 
-@media only screen and (orientation: portrait) {
-    .box {
-        font-size: 150%;
-    }
-}
