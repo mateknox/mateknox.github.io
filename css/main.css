@@ -8,6 +8,7 @@ body {
 
 .box {
   backdrop-filter: blur(20vw);
+  -webkit-backdrop-filter: blur(20vw);
   border-radius: 50px;
   background-color: rgba(0, 0, 0, 0.2);
   width: 35em;
